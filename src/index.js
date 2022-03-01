@@ -1,21 +1,15 @@
-import './style.css';
-// import all the logic and DOM module
-
+import "./style.css"
+import { projects, storeTask } from "./projects"
+import { createTask } from "./task"
 
 function runMain() {
-    const mainContent = document.querySelector('#content')
-
-    // append all first initialised components to the main function
-
+  const mainContent = document.querySelector("#content")
 }
 
-// call to run main function
 runMain()
 
-// Mapping out thoughts for the todo project.
-
-// When use click on new task btn. use is presented a task card.
-// New tast is created as an object from a constructor/class.
+// When user clicks on new task btn. use is presented a task card.
+// New task is created as an object from a constructor/class.
 // Task card has input for title, description, priority, due date and complete properties.
 // When user submits new task object it is pushed and stored in the array.
 // The task is rendered onto the DOM.
@@ -23,7 +17,7 @@ runMain()
 // If due date is not today, it should only be visible in the 'upcoming secion'.
 // If task card is marked as done it should be visible in the 'completed section' and removed from other section.
 
-// Todo list has 'default' list 
+// Todo list has 'default' list
 // Todo is able to create seperate list into 'projects'.
 // Task can be created under projects and grouped into their particular 'projects'.
 
